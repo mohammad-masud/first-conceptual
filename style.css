@@ -21,3 +21,65 @@ justify-content: space-around;
 .items:hover{
     color: blue;
 }
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    height: 500px;
+}
+.banner-photo{
+    width: 300px;
+
+}
+
+.about-us-container{
+    text-align: center;
+    display: flex;
+    height: 300px;
+    justify-content: space-around;
+}
+.about{
+    text-align: center;
+}
+
+.btn{
+    background-color: red;
+    font-size: 15px;
+    height: 35px;
+    width: 100px;
+    border: none;
+    color: white;
+}
+
+.about-photo{
+    height: 350px;
+}
+
+.box{
+    background-color: black;
+    color: white;
+    width: 300px;;
+    box-shadow: 4px 4px 55px gray;
+    margin-top: 50px;
+    border-radius: 15px;
+    height: 400px;
+    
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    
+}
+.service-img{
+    height: 75px;
+    
+    
+}
+.service{
+    text-align: center;
+}
